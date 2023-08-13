@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <body style="background-color:#004669;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caleb's GBS Page</title>
+    <title>Full Screen Image with Hyperlinks</title>
     <style>
         body {
-            margin: 400;
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,16 +16,15 @@
 
         .image-container {
             position: relative;
-            left: 100px;
             width: 80%;
             max-width: 1382px;
             max-height: 979px;
             overflow: hidden;
-            margin: 400 auto;
+            margin: 0 auto; /* Center the image horizontally */
         }
 
         .image-container img {
-            width: 85%;
+            width: 100%;
             height: auto;
         }
 
@@ -36,13 +34,13 @@
         }
 
         .link1 {
-            right: 10%;
-            width: 40%; 
+            left: 5%; /* Adjusted left position */
+            width: 40%; /* Adjusted width */
         }
 
         .link2 {
-            right: 50%; 
-            width: 40%; 
+            left: 55%; /* Adjusted left position */
+            width: 40%; /* Adjusted width */
         }
     </style>
 </head>
@@ -54,3 +52,8 @@
     </div>
 </body>
 </html>
+
+
+
+
+
