@@ -45,15 +45,19 @@
             width: 40%;
         }
 
-        .textbox {
+        .textbox-container {
             position: absolute;
-            bottom: 0;
-            left: 200;
-            padding: 10px;
+            bottom: 20px;
+            right: 20px;
+            display: inline-block;
             background-color: lightblue;
-            font-family: Impact, sans-serif;
+            padding: 10px;
             border-radius: 10px;
-            margin: 10px;
+        }
+
+        .textbox {
+            font-family: Impact, sans-serif;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -62,8 +66,8 @@
         <img src="https://raw.githubusercontent.com/CalebMamula/cn-ninja-invaders-gbs/master/images./gbs-site.gif" alt="Full Screen Image">
         <a href="http://arcade.makecode.com/#tutorial:https://github.com/calebmamula/cn-ninja-invaders-gbs" class="link-area link1"></a>
         <a href="http://arcade.makecode.com/#tutorial:https://github.com/calebmamula/cn-hiding-ninja-gbs" class="link-area link2"></a>
-        <div class="textbox">
-            Small Text Box
+        <div class="textbox-container">
+            <div class="textbox">Small Text Box</div>
         </div>
     </div>
 </body>
